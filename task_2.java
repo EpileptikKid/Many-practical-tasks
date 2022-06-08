@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 public class task_2 {
-    public static double doubletwo(double eps){
+    public static double doubleTwo(double eps){
         double x = 1;
         double result = 0;
         while (x > eps) {
@@ -18,6 +18,6 @@ public class task_2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите eps");
         double eps = scanner.nextDouble();
-        System.out.println(task_2.doubletwo(eps));
+        System.out.println(task_2.doubleTwo(eps));
     }
 }
