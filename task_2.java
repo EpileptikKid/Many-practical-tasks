@@ -8,7 +8,7 @@ public class task_2 {
     public static double doubletwo(double eps){
         double x = 1;
         double result = 0;
-        while (Math.abs(x) > eps) {
+        while (x > eps) {
             result += x;
             x /= 2;
         }
