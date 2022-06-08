@@ -1,3 +1,8 @@
+//Ввести значение eps и найти сумму ряда
+//y = 1 + 1/2 + 1/4 + 1/8 + 1/16 + ...
+//Добавлять слагаемые до тех пор, пока очередное слагаемое не станет меньше eps.
+
+
 import java.util.Scanner;
 public class task_2 {
     public static double doubletwo(double eps){
