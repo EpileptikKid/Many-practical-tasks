@@ -21,7 +21,7 @@ public class task_4_11 {
         for (int n : arr){
             System.out.print(n + " ");
         }
-        System.out.println("Отсортированньій массив:");
+        System.out.println("\nОтсортированньій массив:");
 
         for (int i = 0; i < sizeArr-1; i++){
             int min_index = i;
