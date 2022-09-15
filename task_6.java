@@ -1,4 +1,4 @@
-//Реализовать функцию, которая вычисляет наибольший общий делитель двух чисел через использование рекурсии
+//Implement a function that calculates the greatest common divisor of two numbers using recursion
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class task_6 {
             return (x);
         } else {
             if (x > y) {
-                x-= y;
+                x -= y;
             } else {
                 y -= x;
             }
@@ -18,12 +18,15 @@ public class task_6 {
     }
 
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите первое число");
-        int a = scanner.nextInt();
-        System.out.println("Введите второе число");
-        int b = scanner.nextInt();
-
-        System.out.println(commonDivisor(a, b));
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter the first number:");
+            int a = scanner.nextInt();
+            System.out.println("Enter the second number:");
+            int b = scanner.nextInt();
+            System.out.println("GSD - " + commonDivisor(a, b));
+        } catch (Exception e) {
+            System.out.println("The entered data is incorrect");
+        }
     }
 }

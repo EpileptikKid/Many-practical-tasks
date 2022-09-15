@@ -1,6 +1,6 @@
-//Ввести значение eps и найти сумму ряда
+//Enter eps value and find the number of lines
 //y = 1 + 1/2 + 1/4 + 1/8 + 1/16 + ...
-//Добавлять слагаемые до тех пор, пока очередное слагаемое не станет меньше eps.
+//Add terms until the next term is less than eps.
 
 
 import java.util.Scanner;
@@ -16,8 +16,12 @@ public class task_2 {
     }
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите eps");
-        double eps = scanner.nextDouble();
-        System.out.println(task_2.doubleTwo(eps));
+        try {
+            System.out.println("\n" + "Enter eps");
+            double eps = scanner.nextDouble();
+            System.out.println(task_2.doubleTwo(eps));
+        } catch (Exception e) {
+            System.out.println("The entered data is incorrect");
+        }
     }
 }

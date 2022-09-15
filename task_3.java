@@ -1,32 +1,41 @@
-//Ввести значение n (от 0 до 10) и вывести значения степеней числа 8 до n включительно.
-//Реализовать два подхода – с использованием арифметических и побитовых операций.
-
+//Enter the value of n (from 0 to 10) and output the values of the powers of 8 up to and including n.
+//Implement two approaches - using arithmetic and bitwise operations.
 
 import java.util.Scanner;
 public class task_3 {
 
-    public static int eightStepInt(int n){   //арифметические операции
+    public static void eightStepInt(int n) {   //arithmetic operations
+        System.out.println("Arithmetic operations:");
         int result = 1;
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
+            System.out.println("8 to the power of " + i + " - " + result);
             result *= 8;
         }
-        return(result);
     }
 
-    public static int eightStepByte(int n){  //побитовьіе операции
+    public static void eightStepByte(int n) {  //bitwise operations
+        System.out.println("Bitwise operations:");
         int result = 1;
-        return(result<<n*3);
+        for (int i = 0; i <= n; i++) {
+            System.out.println("8 to the power of " + i + " - " + result);
+            result = result<<3;
+        }
     }
 
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите значение n от 0 до 10");
-        int n = scanner.nextInt();
-        if (n >= 0 & n < 11) {
-            System.out.println(eightStepInt(n));
-            System.out.println(eightStepByte(n));
-        } else {
-            System.out.println("тьі еблан");
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter a value for n from 0 to 10");
+            int n = scanner.nextInt();
+            if (n >= 0 & n < 11) {
+                eightStepInt(n);
+                System.out.println();
+                eightStepByte(n);
+            } else {
+                System.out.println("The entered number is out of range");
+            }
+        } catch (Exception e) {
+            System.out.println("The entered data is incorrect");
         }
     }
 }

@@ -1,11 +1,11 @@
-//Реализовать программу поиска простых чисел. Проверку, является ли число простым, осуществлять в отдельной функции
-//которая принимает целое число и возвращает результат типа boolean.
-//В функции main() осуществить ввод необходимого диапазона и вывод всех простых чисел в этом диапазоне.
+//Implement a program to find prime numbers. Checking whether a number is prime is done in a separate function
+//that takes an integer and returns a boolean result.
+//In the main() function, enter the required range and display all prime numbers in this range.
 
 import java.util.Scanner;
 
 public class task_7 {
-    public static boolean chekSimleNumber(int n){
+    public static boolean checkSimpleNumber(int n){
         for (int i = 2; i <= n/2; i++){
             if (n%i == 0) {
                 return false;
@@ -15,16 +15,20 @@ public class task_7 {
     }
 
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите начало диапазона");
-        int min = scanner.nextInt();
-        System.out.println("Введите конец диапазона");
-        int max = scanner.nextInt();
-        System.out.println("Список простьіх чисел до n:");
-        for (int i = min; i <= max; i++) {
-            if (chekSimleNumber(i)){
-                System.out.print(i + " ");
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter start of range");
+            int min = scanner.nextInt();
+            System.out.println("Enter the end of the range");
+            int max = scanner.nextInt();
+            System.out.println("List of prime numbers up to n:");
+            for (int i = min; i <= max; i++) {
+                if (checkSimpleNumber(i)) {
+                    System.out.print(i + " ");
+                }
             }
+        } catch (Exception e) {
+            System.out.println("The entered data is incorrect");
         }
     }
 }

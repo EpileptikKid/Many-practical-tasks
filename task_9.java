@@ -1,11 +1,11 @@
-//Реализовать и протестировать функцию, которая вычисляет π с точностью до заданного ε
-//Параметром функции должна быть точность (ε). Вычисление должно прекращаться, если очередное слагаемое меньше ε по абсолютной величине
-//Реализовать два варианта - с использованием цикла и с использованием рекурсии.
+//Implement and test a function that calculates π up to a given ε
+//The function parameter must be precision (ε). The calculation should stop if the next term is less than ε in absolute value
+//Implement two options - using a loop and using recursion.
 
 import java.util.Scanner;
 
 public class task_9 {
-    public static double epsPi(double eps){
+    public static double epsPi(double eps){  //loop method
         double q = 1;
         double result = 3;
         for (int i = 2; q >= eps; i += 2){
@@ -19,7 +19,7 @@ public class task_9 {
         return result;
     }
 
-    public static double epsPiRec(double eps, int n){
+    public static double epsPiRec(double eps, int n){  //method with recursion
         double z = (double) 4/((n*2)*(n*2+1)*(n*2+2));
         if (z < eps) {
             return z;
@@ -33,10 +33,14 @@ public class task_9 {
     }
 
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Введите ε");
-        double eps = scanner.nextDouble();
-        System.out.println(3 + epsPiRec(eps));
-        System.out.println(epsPi(eps));
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Enter ε:");
+            double eps = scanner.nextDouble();
+            System.out.println("Method with recursion - " + (3 + epsPiRec(eps)));
+            System.out.println("Loop method - " + epsPi(eps));
+        } catch (Exception e) {
+            System.out.println("The entered data is incorrect");
+        }
     }
 }
