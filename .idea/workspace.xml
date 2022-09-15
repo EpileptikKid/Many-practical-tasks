@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a8d1aaa-39d2-4ac2-9450-31318ed41b8b" name="Changes" comment="1 commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_06_2022_17_02_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_06_2022_17_02__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_06_2022_17_05_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_08_06_2022_17_05__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_6.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/task_9.java" afterDir="false" />
-    </list>
+    <list default="true" id="6a8d1aaa-39d2-4ac2-9450-31318ed41b8b" name="Changes" comment="Edit gitignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +96,7 @@
       <workItem from="1654848734790" duration="19254000" />
       <workItem from="1654930180341" duration="28803000" />
       <workItem from="1655009284913" duration="2097000" />
-      <workItem from="1663279605771" duration="4337000" />
+      <workItem from="1663279605771" duration="4640000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1654690129086</created>
@@ -386,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654976501770</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Translation and revision of tasks">
+      <created>1663284070289</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663284070289</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Edit gitignore">
+      <created>1663284277596</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663284277596</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,6 +409,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="1 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 commit" />
+    <MESSAGE value="Translation and revision of tasks" />
+    <MESSAGE value="Edit gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit gitignore" />
   </component>
 </project>
