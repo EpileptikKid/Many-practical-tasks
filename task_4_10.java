@@ -1,7 +1,7 @@
-//Заполнить массив из трехсот целых чисел последовательными положительными значениями
-//Заменить все значения, не являющиеся простыми числами, некоторым отрицательным значением
-//Для этого последовательно исключать все числа – делители других чисел (для 2 – 4, 6, 8..., для 3 – 9, 15, 21... и т.д.)
-//Вывести на экран оставшиеся положительные значения (простые числа)
+//Fill an array with three hundred integers with consecutive positive values
+//Replace all non-prime values with some negative value
+//To do this, consistently exclude all numbers - divisors of other numbers (for 2 - 4, 6, 8 ..., for 3 - 9, 15, 21 ... etc.)
+//Display remaining positive values (prime numbers)
 
 
 public class task_4_10 {
@@ -20,7 +20,7 @@ public class task_4_10 {
             }
         }
 
-
+        System.out.println("A number of prime numbers up to 300:");
         for (int n : arr){
             if (n != -1){
                 System.out.print(n + " ");
