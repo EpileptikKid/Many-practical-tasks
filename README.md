@@ -1,2 +1,3 @@
 # Getting started with java
-### Repository with a number of tasks for the first steps in learning java (loops, recursion, conditional operator, arrays)
+### /code/java_core_task - Repository with java core simple tasks
+### /code/Java_Coding_Problems - 300 typical tasks from the book "Java coding problems" by Anghel Leonard
